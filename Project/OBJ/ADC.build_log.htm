@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 xuerongkun00@outlook.com, 11, LIC=KRMW3-A0J7C-NNIAF-69ZF6-MV3YF-ZX1IH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\xuero\Documents\Tencent Files\2264649905\FileRecv\19D_ÐÞ¸Ä _2ADC\19D_ÐÞ¸Ä _2ADC\Project\ADC.uvprojx
+Project File Date:  05/27/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ADC'
+compiling main.c...
+main.c(104): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		if (adc_temp<1.5 &&  adc_temp2<1.5){
+main.c(104): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		if (adc_temp<1.5 &&  adc_temp2<1.5){
+main.c(107): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if (adc_temp<1.5 &&  adc_temp2>1.5){
+main.c(107): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if (adc_temp<1.5 &&  adc_temp2>1.5){
+main.c(110): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if (adc_temp>1.5 &&  adc_temp2<1.5){
+main.c(110): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if (adc_temp>1.5 &&  adc_temp2<1.5){
+main.c(113): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if(adc_temp>1.5 &&  adc_temp2>1.5){
+main.c(113): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		else if(adc_temp>1.5 &&  adc_temp2>1.5){
+main.c(211): warning:  #177-D: variable "myff_tmp"  was declared but never referenced
+  	float myff_tmp[20];
+main.c(237): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float myvp_2=(float)data_5/4095.0*10.0;
+main.c(245): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float myvp_3=(float)data_6/4095.0*10.0;
+main.c(247): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float R_temp=(100.0*myvp_3-50.0*myvp_2)/(myvp_2-myvp_3)*1.0;
+main.c(247): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float R_temp=(100.0*myvp_3-50.0*myvp_2)/(myvp_2-myvp_3)*1.0;
+main.c(297): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float myoffset_2=(float)(-1)*2.0*(data_10-myoffset_temp)/4095.0*10.0;
+main.c(270): warning:  #177-D: variable "d"  was declared but never referenced
+  	int b,c,d;
+main.c(84): warning:  #177-D: variable "i_tmp"  was declared but never referenced
+  	int i_tmp=0;
+main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=41878 RO-data=18906 RW-data=120 ZI-data=1232968  
+FromELF: creating hex file...
+".\OBJ\ADC.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.12.0.pack
+                Keil.STM32F4xx_DFP.2.12.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ADC
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
